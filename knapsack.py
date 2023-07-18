@@ -29,7 +29,7 @@ print("selected coffee beans (index): ",selected_items)
 print("selected coffee beans (weights): ",[weights[i]for i in selected_items])
 print("selected coffee beans (costs): ",[costs[i]for i in selected_items])
 
-"""
+""" ------------------------------------------------------------------------------------------------
 OUTPUT:
 
 Enter the weights of the items: 2 3 4 5
