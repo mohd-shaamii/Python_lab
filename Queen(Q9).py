@@ -1,4 +1,4 @@
-ef is_safe(board, row, col, N):
+def is_safe(board, row, col, N):
     for i in range(col):
         if board[row][i] == 1:
             return False
@@ -52,10 +52,13 @@ def solve_n_queens(N):
             print()
 
 
-N=4
+N=int(input("Enter the no of Queens : "))
 solve_n_queens(N)   
 
-""" 
+"""
+OUTPUT:
+
+Enter the no of Queens : 4
 . . Q . 
 Q . . . 
 . . . Q 
