@@ -31,3 +31,23 @@ if __name__ == "__main__":
         if try_again != "yes":
             break
          
+"""
+Enter th enumber of drill holes(nodes): 4
+Enter the distance between node 1 and node 1: 0
+Enter the distance between node 1 and node 2: 10
+Enter the distance between node 1 and node 3: 15
+Enter the distance between node 1 and node 4: 20
+Enter the distance between node 2 and node 1: 10
+Enter the distance between node 2 and node 2: 0
+Enter the distance between node 2 and node 3: 35
+Enter the distance between node 2 and node 4: 25
+Enter the distance between node 3 and node 1: 15
+Enter the distance between node 3 and node 2: 35
+Enter the distance between node 3 and node 3: 0
+Enter the distance between node 3 and node 4: 30
+Enter the distance between node 4 and node 1: 20
+Enter the distance between node 4 and node 2: 25
+Enter the distance between node 4 and node 3: 30
+Enter the distance between node 4 and node 4: 0
+Optimal order of drilling:  [1, 3, 4, 2, 1]
+Optimal cost of drilling:  80.0  """
